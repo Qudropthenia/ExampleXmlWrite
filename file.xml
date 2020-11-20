@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Company>
+    <Department>
+        <Name>it</Name>
+        <Employees>
+            <Employee id="1">
+                <Name>xyxea</Name>
+                <Salary>1249</Salary>
+            </Employee>
+            <Employee id="2">
+                <Name>hgolu</Name>
+                <Salary>539</Salary>
+            </Employee>
+            <Employee id="3">
+                <Name>upcdo</Name>
+                <Salary>727</Salary>
+            </Employee>
+        </Employees>
+    </Department>
+    <Department>
+        <Name>hr</Name>
+        <Employees>
+            <Employee id="4">
+                <Name>mtoxz</Name>
+                <Salary>1124</Salary>
+            </Employee>
+            <Employee id="5">
+                <Name>uytsh</Name>
+                <Salary>1281</Salary>
+            </Employee>
+            <Employee id="6">
+                <Name>hhsui</Name>
+                <Salary>1096</Salary>
+            </Employee>
+            <Employee id="7">
+                <Name>oslms</Name>
+                <Salary>946</Salary>
+            </Employee>
+        </Employees>
+    </Department>
+    <Department>
+        <Name>other</Name>
+        <Employees>
+            <Employee id="8">
+                <Name>awpgl</Name>
+                <Salary>1056</Salary>
+            </Employee>
+            <Employee id="9">
+                <Name>hlaps</Name>
+                <Salary>807</Salary>
+            </Employee>
+            <Employee id="10">
+                <Name>bqecd</Name>
+                <Salary>686</Salary>
+            </Employee>
+            <Employee id="11">
+                <Name>kupvn</Name>
+                <Salary>374</Salary>
+            </Employee>
+            <Employee id="12">
+                <Name>jrnmi</Name>
+                <Salary>631</Salary>
+            </Employee>
+            <Employee id="13">
+                <Name>galrd</Name>
+                <Salary>1126</Salary>
+            </Employee>
+        </Employees>
+    </Department>
+</Company>
