@@ -2,6 +2,7 @@ import Entity.Department;
 import ExcelEngine.SaveXml;
 
 import java.util.List;
+import java.util.function.Predicate;
 
 public class Main {
 
@@ -12,6 +13,9 @@ public class Main {
 	    printListData(AppData.departments);
 	    // Сохранение в XML
 	    SaveXml.save(AppData.departments);
+	    // Пример предикатов
+		Predicate<Department> departmentPredicate = d -> d.getName().equals("it");
+		AppData.printFiltered(departmentPredicate);
     }
 
     private static void printListData(List<Department> departments) {

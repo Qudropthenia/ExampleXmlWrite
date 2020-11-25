@@ -4,6 +4,7 @@ import Entity.Department;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.function.Predicate;
 
 // Хранение и инициализация списка данных приложения
 public class AppData {
@@ -17,5 +18,9 @@ public class AppData {
 			Integer valueEmpl = new Random().nextInt(5) + 3;
 			departments.add(DepartmentBuilder.getDep(depName, valueEmpl));
 		}
+	}
+
+	public static void printFiltered(Predicate<Department> predicate) {
+		departments.stream().filter(predicate).forEach(System.out::println);
 	}
 }
